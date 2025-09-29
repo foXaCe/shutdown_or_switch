@@ -123,7 +123,7 @@ PlasmoidItem {
         Layout.minimumWidth: Layout.preferredWidth
         Layout.minimumHeight: Layout.preferredHeight
         Layout.maximumWidth: Layout.preferredWidth
-        Layout.maximumHeight: Screen.height / 2
+        Layout.maximumHeight: Layout.preferredHeight
 
         Sessions.SessionManagement {
             id: sm
